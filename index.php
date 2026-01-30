@@ -14,7 +14,6 @@
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
 require('client.inc.php');
-
 require_once INCLUDE_DIR . 'class.page.php';
 
 $section = 'home';
@@ -28,7 +27,7 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
 <div class="search-form">
     <form method="get" action="kb/faq.php">
     <input type="hidden" name="a" value="search"/>
-    <input type="text" name="q" class="search" placeholder="<?php echo __('Search our knowledge base'); ?>"/>
+    <input type="text" name="q" class="search" placeholder="<?php echo __('Search o$
     <button type="submit" class="green button"><?php echo __('Search'); ?></button>
     </form>
 </div>
@@ -56,8 +55,7 @@ if ($cats->all()) { ?>
 <h1><?php echo __('Featured Knowledge Base Articles'); ?></h1>
 <?php
 }
-
-    foreach ($cats as $C) { ?>
+foreach ($cats as $C) { ?>
     <div class="featured-category front-page">
         <i class="icon-folder-open icon-2x"></i>
         <div class="category-name">
@@ -80,3 +78,4 @@ if ($cats->all()) { ?>
 </div>
 
 <?php require(CLIENTINC_DIR.'footer.inc.php'); ?>
+=======
