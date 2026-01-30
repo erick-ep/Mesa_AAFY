@@ -1,3 +1,4 @@
+
 <?php
 /*********************************************************************
     index.php
@@ -27,7 +28,7 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
 <div class="search-form">
     <form method="get" action="kb/faq.php">
     <input type="hidden" name="a" value="search"/>
-    <input type="text" name="q" class="search" placeholder="<?php echo __('Search o$
+    <input type="text" name="q" class="search" placeholder="<?php echo __('Search'); ?>"/>
     <button type="submit" class="green button"><?php echo __('Search'); ?></button>
     </form>
 </div>
@@ -78,4 +79,3 @@ foreach ($cats as $C) { ?>
 </div>
 
 <?php require(CLIENTINC_DIR.'footer.inc.php'); ?>
-=======

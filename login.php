@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /*********************************************************************
     login.php
@@ -152,5 +151,5 @@ require CLIENTINC_DIR.'header.inc.php';
 require CLIENTINC_DIR.$inc;
 require CLIENTINC_DIR.'footer.inc.php';
 ?>
-=======
+
 

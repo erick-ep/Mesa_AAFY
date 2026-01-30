@@ -48,7 +48,7 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
             <tr><td colspan="2"><hr /></td></tr>
         <tr><td><?php echo __('Email'); ?>:</td><td><?php
             echo $thisclient->getEmail(); ?></td></tr>
-        <tr><td><?php echo __('Client'); ?>:</td><td><?php
+        <tr><td><?php echo __('XD'); ?>:</td><td><?php
             echo Format::htmlchars($thisclient->getName()); ?></td></tr>
         <?php } ?>
     </tbody>
